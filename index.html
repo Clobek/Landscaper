@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Landscaper Game</h1>
+        <img class="mower" src="images/mower.png">
+    </header>
+    <div id="stats">
+    <div class="Day"></div>
+    <div class="Money"></div>
+    </div>
+    <div id="columns">
+        <div class="column">
+            <div>
+            <h2>Mow A Lawn</h2>
+            <p></p>
+            <input id="MowLawn" type="button" value="Mow A Lawn" onclick="funcNextDay();"/>
+            </div>
+            <div>
+            <h2>Restart</h2>
+            <input id="Restart" type="button" value="New Game" onclick="funcRestart();"/>
+            </div>
+        </div>
+    </div>
+        <h3>Tools</h3>
+        <div id="tools">
+            <div class="rs">
+                <h2>Rusty Scissors</h2>
+                <p>Earn $5 a day.</p>
+                <input id="RS" type="button" value="Cost $5" onclick="funcRS();"/>
+            </div>
+            <div class="OPL">
+                <h2>Old-Timey Push Lawnmower</h2>
+                <p>Earn $50 a day.</p>
+                <input id="OPL" type="button" value="Cost $25" onclick="funcOTP();"/>
+            </div>
+            <div class="FBL">
+                <h2>Fancy Battery-powered Lawnmower</h2>
+                <p>Earn $100 a day.</p>
+                <input id="FBL" type="button" value="Cost $250" onclick="funcFBL();"/>
+            </div>
+            <div class="TSS">
+                <h2>Team Of Starving Students</h2>
+                <p>Earn $250 a day.</p>
+                <input id="TSS" type="button" value="Cost $500" onclick="funcTSS();"/>
+                </div>
+            </div>
+        </div>
+</body>
+</html>
+
+<!-- Used https://stackoverflow.com/questions/1947263/using-an-html-button-to-call-a-javascript-function for syntax/adding a button to HTML -->

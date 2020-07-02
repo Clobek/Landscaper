@@ -1,0 +1,71 @@
+.Money {
+    text-align: center;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.7);
+    border-bottom: solid rgba(255, 255, 255, 0.5);
+    border-right: solid rgba(255, 255, 255, 0.5);
+    border-left: solid rgba(255, 255, 255, 0.5);
+}
+
+.Day {
+    text-align: center;
+    font-size: 25px;
+    background: rgba(255, 255, 255, 0.7);
+    border-right: solid rgba(255, 255, 255, 0.5);
+    border-left: solid rgba(255, 255, 255, 0.5);
+}
+
+.mower {
+    width: 25%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.column {
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    justify-content: space-around;
+    border-right: solid rgba(255, 255, 255, 0.5);
+    border-left: solid rgba(255, 255, 255, 0.5);
+    border-bottom: solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+h1 {
+    width: 70%;
+}
+
+#tools {
+    display: flex;
+    justify-content: space-around;
+    background: rgba(255, 255, 255, 0.7);
+    margin-top: -40px;
+    border-right: solid rgba(255, 255, 255, 0.5);
+    border-left: solid rgba(255, 255, 255, 0.5);
+    border-bottom: solid rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+h3 {
+    font-size: 40px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.7);
+    margin-top: 0px;
+    border-right: solid rgba(255, 255, 255, 0.5);
+    border-left: solid rgba(255, 255, 255, 0.5);
+}
+
+body {
+    background-image: url("images/grassback.jpg");
+    background-size: cover;
+    margin: 5%;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.7);
+    font-size: 40px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-around; 
+    border: solid rgba(255, 255, 255, 0.5);
+}
